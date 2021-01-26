@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+#feeds-db-div #feeds_db_table th {
+    color: #fff;
+}
+#feeds_db_table .feed-db-row td {
+    background-color: white;
+}
+#feeds_db_table .feed-db-row td:first-child {
+    background-color: #00FFFF;
+}
+#feeds_db_table .feed-db-row td:nth-child(2) {
+    color: #000;
+    height: 32px;
+}
+#feeds_db_table td {
+    font-weight: bold;
+}
+.feed-db-notes-div {
+    padding: 20px;
+    margin: auto;
+    border: solid red 1px;
+}
+.feed-db-notes-div p {
+    color: #0000FF;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#feeds_db_table {
+    margin-bottom: 0;
+}
+#feed-db-help-modal {
+    background-color: #0007;
+    opacity: 1;
+}
+#feed-db-help-modal .modal-box {
+    background-color: white;
+    max-width: 500px;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 250px);
+    box-shadow: -1px 3px 11px;
+    border-radius: 3px;
+}
